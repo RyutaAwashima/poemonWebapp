@@ -26,4 +26,5 @@
 
 ## セットアップ
 
-（開発開始時に追記予定）
+インフラ（Firebase / Cloudflare / Stripe / X）は新規に再設定が必要です。
+手順は [docs/TECH_SPEC_INFRA_SETUP.md](./docs/TECH_SPEC_INFRA_SETUP.md) を参照。
