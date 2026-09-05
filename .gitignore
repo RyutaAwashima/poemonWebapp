@@ -1,0 +1,16 @@
+# 環境・依存
+.env
+.env.*
+!.env.example
+.venv/
+node_modules/
+.wrangler/
+
+# OS
+.DS_Store
+
+# ログ
+*.log
+
+# デプロイ生成物（このプロジェクトでは _dist/ ミラー方式を採用しない）
+# （必要になったら追記）

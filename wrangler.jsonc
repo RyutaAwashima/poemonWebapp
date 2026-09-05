@@ -1,0 +1,27 @@
+// TODO: 新プロジェクトの Cloudflare リソース（KV/D1/R2）を作成し、ID を差し替えること
+// 元プロジェクト（sangyoufare2026）の実 ID は除去済み。binding 名はコードとの整合のため AIMON_* のままでも可。
+{
+  "name": "poemonWebapp",
+  "pages_build_output_dir": ".",
+  "compatibility_date": "2026-06-28",
+  "kv_namespaces": [
+    {
+      "binding": "AIMON_KV",
+      "id": "YOUR_KV_NAMESPACE_ID",
+      "preview_id": "YOUR_KV_PREVIEW_ID"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "AIMON_IMAGES",
+      "bucket_name": "YOUR_R2_BUCKET"
+    }
+  ],
+  "d1_databases": [
+    {
+      "binding": "AIMON_DB",
+      "database_name": "YOUR_DB_NAME",
+      "database_id": "YOUR_D1_DATABASE_ID"
+    }
+  ]
+}
